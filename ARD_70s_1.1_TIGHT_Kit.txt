@@ -965,8 +965,8 @@ on init
 		set_control_par(%kit_msk_id[$CYMB4_ID],$CONTROL_PAR_POS_X,365)
 		set_control_par(%kit_msk_id[$CYMB4_ID],$CONTROL_PAR_POS_Y,68)
 		
-		set_control_par(%kit_msk_id[$CYMB5_ID],$CONTROL_PAR_POS_X,82)
-		set_control_par(%kit_msk_id[$CYMB5_ID],$CONTROL_PAR_POS_Y,110)
+		{set_control_par(%kit_msk_id[$CYMB5_ID],$CONTROL_PAR_POS_X,82)
+		set_control_par(%kit_msk_id[$CYMB5_ID],$CONTROL_PAR_POS_Y,110)}
 		
 		set_control_par(%kit_msk_id[$PERC1_ID],$CONTROL_PAR_POS_X,580)
 		set_control_par(%kit_msk_id[$PERC1_ID],$CONTROL_PAR_POS_Y,209)
@@ -1163,8 +1163,8 @@ on init
 		set_control_par(%kit_tr_id[$TOM3_ID],$CONTROL_PAR_WIDTH,31)
 		set_control_par(%kit_tr_id[$TOM3_ID],$CONTROL_PAR_HEIGHT,29)
 		
-		set_control_par(%kit_tr_id[$TOM4_ID],$CONTROL_PAR_WIDTH,31)
-		set_control_par(%kit_tr_id[$TOM4_ID],$CONTROL_PAR_HEIGHT,29)
+		{set_control_par(%kit_tr_id[$TOM4_ID],$CONTROL_PAR_WIDTH,31)
+		set_control_par(%kit_tr_id[$TOM4_ID],$CONTROL_PAR_HEIGHT,29)}
 		
 		set_control_par(%kit_tr_id[$CYMB1_ID],$CONTROL_PAR_WIDTH,31)
 		set_control_par(%kit_tr_id[$CYMB1_ID],$CONTROL_PAR_HEIGHT,29)
@@ -1175,8 +1175,8 @@ on init
 		set_control_par(%kit_tr_id[$CYMB3_ID],$CONTROL_PAR_WIDTH,31)
 		set_control_par(%kit_tr_id[$CYMB3_ID],$CONTROL_PAR_HEIGHT,29)
 		
-		set_control_par(%kit_tr_id[$CYMB4_ID],$CONTROL_PAR_WIDTH,31)
-		set_control_par(%kit_tr_id[$CYMB4_ID],$CONTROL_PAR_HEIGHT,29)
+		{set_control_par(%kit_tr_id[$CYMB4_ID],$CONTROL_PAR_WIDTH,31)
+		set_control_par(%kit_tr_id[$CYMB4_ID],$CONTROL_PAR_HEIGHT,29)}
 		
 		set_control_par(%kit_tr_id[$PERC1_ID],$CONTROL_PAR_WIDTH,31)
 		set_control_par(%kit_tr_id[$PERC1_ID],$CONTROL_PAR_HEIGHT,29)
