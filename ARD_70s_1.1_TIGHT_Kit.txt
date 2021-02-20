@@ -427,10 +427,10 @@ on init
 	%instr_channel[$CYMB6_ID] := -1
 	%instr_channel[$CYMB7_ID] := -1
 	%instr_channel[$PERC1_ID] := -1
-	%instr_channel[$PERC2_ID] := 6
-	%instr_channel[$PERC3_ID] := 7
-	%instr_channel[$PERC4_ID] := 8
-	%instr_channel[$PERC5_ID] := -1
+	%instr_channel[$PERC2_ID] := -1
+	%instr_channel[$PERC3_ID] := 6
+	%instr_channel[$PERC4_ID] := 7
+	%instr_channel[$PERC5_ID] := 8
 	{/Instrument Mixer Channels}
 
 	
