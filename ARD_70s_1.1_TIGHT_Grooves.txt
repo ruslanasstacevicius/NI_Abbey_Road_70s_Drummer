@@ -513,8 +513,8 @@ on init
 	end if
 	
 	declare $first_time_ever_flag := 1
-	make_persistent($first_time_ever_flag)
-	read_persistent_var($first_time_ever_flag)
+	{ make_persistent($first_time_ever_flag)
+	read_persistent_var($first_time_ever_flag) }
 	if ($first_time_ever_flag = 1)
 		@file_path := get_folder($GET_FOLDER_LIBRARY_DIR) & "MIDI Files/Tight Kit/01 Funk/04 Tight 119BPM/15 16th Hat Both Perc.mid"
 		@file_name := "15 16th Hat Both Perc"
